@@ -1,0 +1,15 @@
+# Tested together on Python 3.12 / 3.13 (October 2026).
+# CrewAI does not support Python 3.14 yet - use 3.12.
+
+# CrewAI agent framework. The [litellm] extra is REQUIRED for Groq:
+# CrewAI talks to Groq through LiteLLM.
+crewai[litellm]==1.15.23
+
+# Free web search (the new name of the old "duckduckgo-search" package)
+ddgs==9.16.0
+
+# Web interface
+streamlit==1.65.0
+
+# Reads the .env file during local development
+python-dotenv==1.2.4
